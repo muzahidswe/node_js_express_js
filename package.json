@@ -1,0 +1,52 @@
+{
+  "name": "dbfirst",
+  "version": "1.0.0",
+  "description": "Knexjs practice with DB first approch",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "test"
+  },
+  "author": "Musabbir Mamun",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "axios": "^0.21.4",
+    "bcryptjs": "^2.4.3",
+    "blob-stream": "^0.1.3",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "decompress": "^4.2.1",
+    "dotenv": "^8.6.0",
+    "excel4node": "^1.7.2",
+    "exceljs": "^4.3.0",
+    "express": "^4.17.3",
+    "express-zip": "^3.0.0",
+    "form-data": "^4.0.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.1.0",
+    "get-base-url": "^2.2.0",
+    "https-localhost": "^4.7.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.1",
+    "knex-paginate": "^1.2.4",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "moment": "^2.29.3",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^1.7.3",
+    "objection": "^2.1.3",
+    "path": "^0.12.7",
+    "pdfmake": "^0.2.5",
+    "pg": "^8.0.3",
+    "read-excel-file": "^5.2.28",
+    "request": "^2.88.2",
+    "xlsx": "^0.16.9"
+  },
+  "devDependencies": {
+    "knex-generic-errors": "^0.1.5",
+    "nodemon": "^2.0.15"
+  }
+}
